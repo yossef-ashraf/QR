@@ -2,4 +2,4 @@ use phpqrcode
 phpqrcode is php library 
 
 
-and this a validation
+and this qr need to a validation
