@@ -30,5 +30,5 @@ $codeContents .= 'EMAIL:'.$email."\n";
 $codeContents .= 'END:VCARD';
 QRcode::png($codeContents, $tempDir.'026.png', QR_ECLEVEL_L, 3);
 // displaying
-echo '<img src="'.$tempDir.'026.png" /> <a href="<?php echo $fileName?>" download>download</a>';
+echo '<img src="'.$tempDir.'026.png" /> <a href="'.$tempDir.'026.png" download>download</a>';
 }
