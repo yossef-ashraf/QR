@@ -1,0 +1,5 @@
+use phpqrcode 
+phpqrcode is php library 
+
+
+and this a validation
